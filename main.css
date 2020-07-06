@@ -1,0 +1,118 @@
+.button{
+    border:black 1px solid ;
+    border-radius: 5px;
+    padding: 1px;
+    width:37px;
+    margin-top: 20px;
+    background-color:rgb(25, 139, 231);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    
+}
+.button:hover {
+background-color: rgb(7, 226, 255);
+border-radius: 8px;
+cursor: pointer;
+}
+@font-face {
+font-family: 'Playball';
+font-style: normal;
+font-weight: 400;
+src: local('Playball'), local('Playball-Regular'), url(https://fonts.gstatic.com/s/playball/v9/TK3gWksYAxQ7jbsKcg8Ene8.ttf) format('truetype');
+}
+@font-face {
+font-family: 'StateFace';
+src: url('https://github.com/mlms13/FancyArea/raw/master/demo/fonts/StateFace.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+.fancy-area {
+border: 1px solid #ccc;
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+cursor: text;
+line-height: 16px;
+padding: 4px 4px 16px;
+-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.fancy-area ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.fancy-area input {
+background: 0;
+border: 1px solid transparent;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-size: 14px;
+margin: 0;
+padding: 4px;
+width: 100%;
+}
+.fancy-area input:focus {
+outline: 0;
+}
+.fancy-area .fancy-item {
+background: #e5f2fc;
+border: 1px solid #8ac4f1;
+margin-bottom: -1px;
+position: relative;
+-webkit-transition: background 0.2s;
+transition: background 0.2s;
+}
+.fancy-area .fancy-item.fancy-item-focus {
+background: #fff;
+}
+.fancy-area .fancy-item input {
+border: 0;
+}
+.fancy-area .fancy-remove {
+color: #1b89e0;
+cursor: pointer;
+font-size: 20px;
+position: absolute;
+right: 5px;
+top: 5px;
+-webkit-transition: 0.2s;
+transition: 0.2s;
+}
+.fancy-area .fancy-remove:hover {
+color: #005495;
+}
+.fancy-area-focus {
+border-color: #73b8ee;
+border-color: rgba(82, 168, 236, 0.8);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+body {
+font: 14px sans-serif;
+}
+h1,
+h2,
+label {
+text-align: center;
+}
+h1 {
+color: #f72;
+font-family: Playball;
+font-size: 50px;
+margin: 0;
+}
+h2 {
+color: #fa4;
+font-size: 14px;
+margin: 0 0 32px;
+}
+.text-narrow {
+margin: 0 auto;
+max-width: 400px;
+min-height: 50px;
+}
+.current_saves
+{
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-right: 2px;
+text-decoration: none;
+font-size: 12px;;
+}
